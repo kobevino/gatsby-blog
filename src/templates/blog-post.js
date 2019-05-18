@@ -12,6 +12,7 @@ import { Bio } from '../components/bio'
 import { PostNavigator } from '../components/post-navigator'
 import { Disqus } from '../components/disqus'
 import { Utterences } from '../components/utterances'
+import { GoogleAdsense } from '../components/googleAdsense'
 import * as ScrollManager from '../utils/scroll'
 
 import '../styles/code.scss'
@@ -30,6 +31,7 @@ export default ({ data, pageContext, location }) => {
   return (
     <Layout location={location} title={title}>
       <Head title={post.frontmatter.title} description={post.excerpt} />
+      <GoogleAdsense />
       <PostTitle title={post.frontmatter.title} />
       <PostContainer html={post.html} />
       <SocialShare title={post.frontmatter.title} author={author} />
@@ -39,6 +41,7 @@ export default ({ data, pageContext, location }) => {
       <Elements.Hr />
       <Bio />
       <PostNavigator pageContext={pageContext} />
+      <GoogleAdsense />
       {!!disqusShortName && (
         <Disqus
           post={post}
