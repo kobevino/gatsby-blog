@@ -6,10 +6,7 @@ export const GoogleAdsense = () => {
   }, [])
 
   return (
-    <div
-      className="google-adsense"
-      style={{ marginTop: '20px', height: '60px' }}
-    >
+    <div className="google-adsense" style={{ marginTop: '20px' }}>
       <ins
         className="adsbygoogle"
         style={{ display: 'block' }}

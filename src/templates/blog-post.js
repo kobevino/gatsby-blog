@@ -41,7 +41,6 @@ export default ({ data, pageContext, location }) => {
       <Elements.Hr />
       <Bio />
       <PostNavigator pageContext={pageContext} />
-      <GoogleAdsense />
       {!!disqusShortName && (
         <Disqus
           post={post}
@@ -51,6 +50,7 @@ export default ({ data, pageContext, location }) => {
         />
       )}
       {!!utterances && <Utterences repo={utterances} />}
+      <GoogleAdsense />
     </Layout>
   )
 }
