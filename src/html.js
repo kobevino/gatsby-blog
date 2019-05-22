@@ -12,6 +12,10 @@ export default class HTML extends React.Component {
             name="viewport"
             content="width=device-width, initial-scale=1, shrink-to-fit=no, minimum-scale=1, maximum-scale=2"
           />
+          <link
+            rel="stylesheet"
+            href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css"
+          />
           {this.props.headComponents}
         </head>
         <body {...this.props.bodyAttributes}>
