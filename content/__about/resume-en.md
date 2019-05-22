@@ -45,19 +45,20 @@ With a strong technical skill-set, attention to detail, and 5 years of experienc
 
 # :mortar_board: Education
 
-- **Yong-In University**
+- **Yong-In University** - 2006.02 - 2012.02
+
   - Bachelor’s Degree
   - English Language and Literature/Letters
   - 3.91/4.5
 
 # :page_facing_up: Certification
 
-- **Engineer Infomation Processing**
+- **Engineer Infomation Processing** - 2015.07
 
   - Human Resources Development Service of Korea
   - 15202050010N
 
-- **Mos Master**
+- **Mos Master** - 2011.10
 
   - Microsoft
 
