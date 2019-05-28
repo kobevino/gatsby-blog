@@ -11,3 +11,19 @@
   text-decoration: none;
   color: inherit;
 }
+
+img.logo {
+  animation: logo-spin infinite 2s linear;
+  vertical-align: middle;
+  margin-right: 5px;
+  margin-bottom: 0;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
