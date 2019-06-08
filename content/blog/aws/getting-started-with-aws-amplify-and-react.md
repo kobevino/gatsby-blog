@@ -193,7 +193,7 @@ export default withAuthenticator(App, true)
 ```
 
 - `awsConfig`는 어플리케이션에서 사용하는 클라우드 리소스의 구성 데이터를 담고 있다.
-- `withAuthenticator` HOC 컴포넌트를 이용하여 `App` 컴포넌트 감싸주고 로그인한 뒤 *USERNAME*과 _SIGN OUT_ 버튼을 보여주기 `true`로 설정해준다.
+- `withAuthenticator` HOC 컴포넌트를 이용하여 `App` 컴포넌트를 감싸주고 로그인한 뒤 *USERNAME*과 _SIGN OUT_ 버튼을 보여주기 `true`로 설정해준다.
 
 ```bash
 $ yarn start
