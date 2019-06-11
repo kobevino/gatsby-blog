@@ -1,10 +1,26 @@
 .switch-container {
   text-align: right;
-
+  .react-switch-bg {
+    > div {
+      padding: 3px;
+    }
+  }
   .icon {
     text-align: center;
     color: #222;
     font-size: 14px;
     font-weight: 900;
+
+    width: 17px;
+    height: 17px;
+
+    &.checkedIcon {
+      background-image: url('../../../content/assets/ic_moon.png');
+      background-size: 100% 100%;
+    }
+    &.uncheckedIcon {
+      background-image: url('../../../content/assets/ic_sun.png');
+      background-size: 100% 100%;
+    }
   }
 }
