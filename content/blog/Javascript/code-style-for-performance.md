@@ -1,7 +1,7 @@
 ---
 title: 성능을 높이는 코드 스타일
 date: 2019-06-23 15:06:68
-category: javascript
+category: Javascript
 ---
 
 ![](./images/code-style-for-performance-1.png)
