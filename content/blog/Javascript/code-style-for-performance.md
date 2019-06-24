@@ -79,23 +79,6 @@ addData()
 
 하이라이트로 된 부분이 최적화의 핵심 코드이다. `addData()` 함수가 실행되면 `data` 객체에 접근하기 위해 최초 한번만 활성화 객체와 전역 객체를 탐색한다. 그 이후부터는 `data` 객체는 `localData` 지역변수에 저장되어 있기 때문에 loop를 도는 동안 전역 객체를 탐색할 필요가 없다. 결국 탐색 시간이 줄어들었으므로 성능 또한 개선된다.
 
-```js{6}
-var obj = new Object()
-
-Object.prototype.data = []
-
-function addData() {
-  var localData = obj.data
-  for (var i = 0; i < 100; i++) {
-    localData.push(i)
-  }
-}
-
-addData()
-```
-
-`obj` 인스턴스 객체는 `Object`의 프로토타입을 상속받는다. 참조한 경로를 따라 탐색범위를 넓혀 나가므로 탐색과정을 줄여야한다. 그러기 위해선 `localData` 지역변수에 담아 불필요한 탐색과정을 줄여야한다.
-
 ### 반복문과 성능
 
 자바스크립트에는 `for`, `for-in`, `while`, `do-while`라는 loop 구문들이 있다.
