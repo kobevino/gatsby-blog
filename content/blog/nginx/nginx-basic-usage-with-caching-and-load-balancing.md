@@ -51,7 +51,7 @@ $ cd /usr/local/etc/nginx && code .
 
 ![](./images/nginx-basic-usage-with-caching-and-load-balancing-2.png)
 
-```nginx{3,4,8}
+```nginx{3,4,6-9}
 http {
     server {
         listen       8080;
@@ -326,5 +326,4 @@ $ ab -n 10 http://127.0.0.1/
 - [Docker 로 Node.js 배포하기
   ](https://seokjun.kim/docker-nginx-node/)
 - [Nginx 캐시 설정 및 캐시 만료일 기간 설정
-  ](Nginx 캐시 설정 및 캐시 만료일 기간 설정
-  )
+  ](https://jootc.com/p/20180519958)
