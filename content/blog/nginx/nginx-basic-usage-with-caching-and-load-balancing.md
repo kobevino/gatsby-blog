@@ -321,9 +321,6 @@ $ ab -n 10 http://127.0.0.1/
 
 ### Reference
 
-- [Nginx를 사용하여 프록시 서버 만들기
-  ](https://velog.io/@jeff0720/2018-11-18-2111-%EC%9E%91%EC%84%B1%EB%90%A8-iojomvsf0n)
-- [Docker 로 Node.js 배포하기
-  ](https://seokjun.kim/docker-nginx-node/)
-- [Nginx 캐시 설정 및 캐시 만료일 기간 설정
-  ](https://jootc.com/p/20180519958)
+- [Nginx를 사용하여 프록시 서버 만들기](https://velog.io/@jeff0720/2018-11-18-2111-%EC%9E%91%EC%84%B1%EB%90%A8-iojomvsf0n)
+- [Docker 로 Node.js 배포하기](https://seokjun.kim/docker-nginx-node/)
+- [Nginx 캐시 설정 및 캐시 만료일 기간 설정](https://jootc.com/p/20180519958)
