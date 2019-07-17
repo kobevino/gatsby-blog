@@ -471,7 +471,7 @@ Enviroment Setup에서 **DEV** 모드를 선택하고 나머지 질문에는 Ent
 
 ![](./images/getting-started-with-aws-amplify-and-react-30.png)
 
-배포가 완료되면 **Hosting endpoint** [URL](http://amplify-app-20190603180537-hostingbucket-dev.s3-website.ap-northeast-2.amazonaws.com/)이 보일 것이다. 드디어 끝!!!
+배포가 완료되면 **Hosting endpoint url** 이 보일 것이다. 드디어 끝!!!
 
 ### Wrap-up
 
@@ -481,6 +481,6 @@ Enviroment Setup에서 **DEV** 모드를 선택하고 나머지 질문에는 Ent
 
 ### Reference
 
-- [ausg-seminar-2019](https://github.com/AUSG/ausg-seminar-2019/tree/master/WebTrack3)
+- [ausg-seminar-2019](https://github.com/AUSG/ausg-seminar-2019/tree/master/WebTrack/WebTrack3)
 - [Amplify Web App Workshop](https://awskrug.github.io/amplify-photo-gallery-workshop/120_deploying/10_deploying.html)
 - [React와 Amplify 연동](https://aws-amplify.github.io/docs/js/react)
