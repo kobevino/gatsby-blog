@@ -27,7 +27,7 @@ $ yarn start
 
 이제부터 간단한 counter 예제를 통해 react의 중요한 개념인 `setState` 함수에 대해 알아보자!
 
-```js{11}
+```js{10}
 // Counter.js
 import React from 'react'
 
