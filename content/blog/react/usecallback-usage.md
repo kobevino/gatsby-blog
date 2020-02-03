@@ -147,11 +147,11 @@ const onDecrease = useCallback(
 
 로그를 확인해볼까?
 
-이상하다. 🤔🤔🤔 최적화를 했는데 이전과 같이 로그가 두번씩 찍힌다. 그 이유는 두 함수 모두 `useCallback`의 **dependency array**에 `count`가 참조되었다. 값이 변경되면 두 함수 모두 새로운 메모이제이션된 콜백이 반환되고 child 컴포넌트에 그대로 전달된다.
+이상하다. 🤔🤔🤔 최적화를 했는데 이전과 같이 로그가 두번씩 찍힌다. 그 이유는 두 함수 모두 `useCallback`의 **dependency array**에 `count`가 참조되었기 때문이다. 값이 변경되면 두 함수 모두 새로운 메모이제이션된 콜백이 반환되고 child 컴포넌트에 그대로 전달된다.
 
 그럼 해결책은?
 
-`count` 값을 참조시키지 말고 빈 배열로 생성하고 `setCount` 함수의 파라미터값(previous State)을 사용하여 연산을 해보자.
+`setCount` 함수의 파라미터값(previous state)으로 이용하여 연산을 하고 `useCallback`의 두번째 파라미터에 `count` 값을 참조시키지 말고 빈 배열로 전달하자.
 
 ```js{3,7}
 // App.js
