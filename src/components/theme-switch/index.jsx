@@ -27,8 +27,7 @@ function toggleTheme(theme) {
 }
 
 export const ThemeSwitch = () => {
-  const themeDefaultValue = Storage.getTheme(Dom.hasClassOfBody(THEME.DARK))
-  const [checked, setChecked] = useState(themeDefaultValue)
+  const [checked, setChecked] = useState(false)
 
   const handleChange = checked => {
     const theme = getTheme(checked)
@@ -39,7 +38,7 @@ export const ThemeSwitch = () => {
   }
 
   useEffect(() => {
-    const checked = themeDefaultValue
+    const checked = Storage.getTheme(Dom.hasClassOfBody(THEME.DARK))
 
     handleChange(checked)
   }, [])
