@@ -477,7 +477,7 @@ Enviroment Setup에서 **DEV** 모드를 선택하고 나머지 질문에는 Ent
 
 지금까지 프론트엔드 개발자가 AWS `Amplify Framework`를 이용하여 손쉽게 어플리케이션을 제작하는 workflow를 경험해보았다. 복습을 하고 나니 AWS Service가 어떻게 유기적으로 연결되어 있는지 이해하는 계기가 되었다. 결론적으로 AWS 서비스와 친숙해지자. :smiley::smiley:
 
-위 코드의 모든 소스는 [여기](https://github.com/jason0853/amplify-app)서 확인하길 바란다.
+위 코드의 모든 소스는 [여기](https://github.com/vinomuse/amplify-app)서 확인하길 바란다.
 
 ### Reference
 

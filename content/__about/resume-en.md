@@ -65,6 +65,6 @@ With a strong technical skill-set, attention to detail, and 5 years of experienc
 # :telephone: Contact
 
 - :e-mail: - _jason0853@gmail.com_
-- :house: - https://jason0853.github.io
-- <i class="devicon-github-plain-wordmark colored" style="font-size: 1.2rem;"></i> - https://github.com/jason0853
+- :house: - https://vinomuse.github.io
+- <i class="devicon-github-plain-wordmark colored" style="font-size: 1.2rem;"></i> - https://github.com/vinomuse
 - :telephone_receiver: - 010-2619-0853
