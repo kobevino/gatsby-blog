@@ -168,7 +168,7 @@ ctrl + p - 파일 찾기 단축키 (ctrlp.vim 플러그인)
 
 Vim을 IDE로서 사용하려면 한참 멀었지만 간단한 테스트코드나 자바스크립트 언어 공부할 때 사용해보니 개인적으로 만족! 👍👍👍 좀 더 사용해보고 괜찮은 플러그인이나 기능들은 계속 공유하도록 하겠다.
 
-### Reperence
+### Reference
 
 - [Vim을 IDE처럼 사용하기](https://blog.b1ue.sh//vim-ide/)
 - [Vi (Vim) 시작하기](https://youtu.be/GWo_MxMlJJ4)
